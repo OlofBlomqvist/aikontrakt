@@ -1,2 +1,6 @@
 /rusty/target
 blockfrost_apikey
+key.addr
+key.sk
+lock_tx_id
+script_hex
