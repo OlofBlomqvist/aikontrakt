@@ -16,6 +16,8 @@ if((test-path key.*) -eq $false) {
     deno run --allow-net --allow-write --allow-read init.ts
     if($LASTEXITCODE -ne 0) {throw "failed to initialize wallet"}    
     Write-Output "Go over here and request funds to your new address: https://docs.cardano.org/cardano-testnet/tools/faucet"    
+    Write-Output "Run this script again when you have funded the address!"
+    return
 }
 
 $skey = Get-Content -Raw key.sk
