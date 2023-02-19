@@ -40,7 +40,7 @@ Write-Host "Sleeping for some 15 seconds to give the utxo some time to materiali
 Start-Sleep 15
 
 Write-Host "Unlocking the funds!"
-cargo test --manifest-path=rusty/Cargo.toml -- --nocapture
+cargo test unlock --manifest-path=rusty/Cargo.toml -- --nocapture
 
 
 

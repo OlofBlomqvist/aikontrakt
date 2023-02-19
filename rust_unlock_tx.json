@@ -2,11 +2,11 @@
   "body": {
     "inputs": [
       {
-        "transaction_id": "11e3e66f608b3f222ba31b22752c33c5c11420fea23fa9fabbe9e8fa795ef8b8",
+        "transaction_id": "c7b24aa830acfe94040b257538fe1352033421337e47677930ce5c95ccca432a",
         "index": 1
       },
       {
-        "transaction_id": "11e3e66f608b3f222ba31b22752c33c5c11420fea23fa9fabbe9e8fa795ef8b8",
+        "transaction_id": "c7b24aa830acfe94040b257538fe1352033421337e47677930ce5c95ccca432a",
         "index": 2
       }
     ],
@@ -14,7 +14,7 @@
       {
         "address": "addr_test1vrd4utmy2888cga4evhdskqfh5hw3a65mvq959np937en6cgt7mn5",
         "amount": {
-          "coin": "9975314247",
+          "coin": "9969944962",
           "multiasset": null
         },
         "plutus_data": null,
@@ -32,7 +32,7 @@
     "script_data_hash": "5a60bac33f46225c9b18de48e1b61dbbf2e6112e361ff2519b21ce4e35a8ed82",
     "collateral": [
       {
-        "transaction_id": "11e3e66f608b3f222ba31b22752c33c5c11420fea23fa9fabbe9e8fa795ef8b8",
+        "transaction_id": "c7b24aa830acfe94040b257538fe1352033421337e47677930ce5c95ccca432a",
         "index": 2
       }
     ],
@@ -41,14 +41,14 @@
     ],
     "network_id": null,
     "collateral_return": null,
-    "total_collateral": "9974479847",
+    "total_collateral": "9969110562",
     "reference_inputs": null
   },
   "witness_set": {
     "vkeys": [
       {
         "vkey": "ed25519_pk1g5cgqf38kf375kl4yxnh7ecm6hzf76sg5kpjtrvqtrnafmcgwnfqm4cf4a",
-        "signature": "0658f97c13cad0da0f68b28ba6086134f59026208e694dffeda31268fc6a91697e08a1bce44c74e0e8892516c4cd20cadfaa193fe5fe5aede0073a6d11a0210a"
+        "signature": "75f352615ec17fc016615c7edd20ae21aec3f864408d7f1fb1a58881a6040ea15cd721b01073be1f38328a6cb68858cf56759b4067c1a3f7300cc3cdde06620b"
       }
     ],
     "native_scripts": null,
