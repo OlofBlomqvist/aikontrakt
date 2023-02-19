@@ -10,4 +10,4 @@ const address = await lucid
   .wallet.address();
 await Deno.writeTextFile("key.addr", address);
 
-console.WriteLine("keys generated!",address)
+console.log("keys generated!",address)

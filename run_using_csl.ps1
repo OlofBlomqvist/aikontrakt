@@ -29,7 +29,7 @@ if(test-path "lock_tx_id") {
     Remove-Item "lock_tx_id" -ErrorAction stop
 }
 
-# # TODO : Lock also using csl!
+# TODO : Lock also using csl?
 Write-Host "Locking some funds!"
 deno run --allow-net --allow-read --allow-write lock.ts
 if($LASTEXITCODE -ne 0) {throw "failed to lock funds!"}    
@@ -38,7 +38,7 @@ Write-Host "Sleeping for some 15 seconds to give the utxo some time to materiali
 Start-Sleep 15
 
 Write-Host "Unlocking the funds!"
-cargo test --manifest-path=rusty/Cargo.toml
+cargo test --manifest-path=rusty/Cargo.toml -- --nocapture
 
 
 
