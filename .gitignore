@@ -6,3 +6,4 @@ lock_tx_id
 script_hex
 lock_tx.json
 unlock_tx.json
+rust_unlock_tx.json
