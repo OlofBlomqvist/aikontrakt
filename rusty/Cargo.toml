@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 cardano-serialization-lib = "*"
-blockfrost = { path="../../blockfrost-rust" }
+blockfrost = { git="https://github.com/OlofBlomqvist/blockfrost-rust" }
 tokio = {version="1.25.0",features=["macros"]}
 hex = "0.4.3"

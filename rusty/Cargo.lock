@@ -38,6 +38,7 @@ dependencies = [
 [[package]]
 name = "blockfrost"
 version = "0.2.1"
+source = "git+https://github.com/OlofBlomqvist/blockfrost-rust#f9a55025120487dc82c22db3facedb58c1b27199"
 dependencies = [
  "futures",
  "paste",
